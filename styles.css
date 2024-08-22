@@ -1,10 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/hero-new');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
     margin: 0;
     padding : 0;
 }
 
+/* Navbar*/
 header{
     background-color:#1F2937;
 }
@@ -22,11 +24,49 @@ nav{
 
 }
 
-.navbar-right ul {
+.secondary-text{
     font-family: 'Hero New';
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.navbar-right ul {
     list-style-type:none;
     display:flex;
     gap: 16px;
+}
+
+/* Hero */
+
+.hero {
+    margin-top: 10vh;
+    height: 30vh;
+    display:flex;
+    justify-content: space-around;
+}
+
+.hero-container-left h1 {
+    font-size: 48px;
+    font-family: Roboto, "Hero New";
+    color: #F9FAF8;
+    font-weight: bolder
+}
+
+
+.circular-button{
+    min-width: 15px;
+    margin-top: 3vh;
+    border: 0;
+    border-radius: 12px;
+    padding: 5px 30px 5px;
+    background-color: #3882F6;
+}
+
+.image-placeholder{
+    background-color: gray;
+    height: 200px;
+    width: 350px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
