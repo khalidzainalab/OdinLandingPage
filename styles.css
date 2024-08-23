@@ -81,8 +81,8 @@ nav{
 
 .image-placeholder{
     background-color: gray;
-    height: 250px;
-    width: 550px;
+    height: 30vh;
+    width: 30vw;
     display:flex;
     align-items: center;
     justify-content: center;
