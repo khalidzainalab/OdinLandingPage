@@ -8,6 +8,7 @@
 
 /* Navbar*/
 header{
+    padding-top: 2vh;
     background-color:#1F2937;
 }
 
@@ -19,8 +20,9 @@ header{
 
 nav{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap:26.5vw
 
 }
 
@@ -40,9 +42,15 @@ nav{
 
 .hero {
     margin-top: 10vh;
-    height: 30vh;
+    height: 45vh;
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap:64px;
+
+}
+
+.hero-container-left {
+    max-width: 500px;
 }
 
 .hero-container-left h1 {
@@ -53,9 +61,10 @@ nav{
 }
 
 
+
 .circular-button{
     min-width: 15px;
-    margin-top: 3vh;
+    margin-top: 1vh;
     border: 0;
     border-radius: 12px;
     padding: 5px 30px 5px;
@@ -64,9 +73,10 @@ nav{
 
 .image-placeholder{
     background-color: gray;
-    height: 200px;
-    width: 350px;
+    height: 250px;
+    width: 550px;
     display:flex;
     align-items: center;
     justify-content: center;
+    opacity: 0.3;
 }
