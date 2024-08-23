@@ -4,6 +4,7 @@
 * {
     margin: 0;
     padding : 0;
+    box-sizing: border-box;
 }
 
 /* Navbar*/
@@ -83,6 +84,10 @@ nav{
 
 /* information section */
 
+.info-gallery{
+    height: 40vh;
+}
+
 #information-header {
     font-family: 'Hero New','Roboto';
     text-align: center;
@@ -102,10 +107,9 @@ nav{
 
 .small-image{
     border: 3px solid #3882F6;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 6px;
-    padding: 20px;
 }
 
 .text{
