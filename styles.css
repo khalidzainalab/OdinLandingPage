@@ -8,7 +8,8 @@
 }
 
 /* Navbar*/
-header{
+.header,
+.footer{
     padding-top: 2vh;
     background-color:#1F2937;
 }
@@ -179,6 +180,16 @@ nav{
     justify-content: space-evenly;
 
 }
+
 .white {
     border: 2px solid white;
+}
+
+/* footer */
+
+.footer {
+    padding-top: 5vh;
+    text-align: center;
+    font-size: 16px;
+    height: 12vh;
 }
