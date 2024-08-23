@@ -117,3 +117,11 @@ nav{
     margin-top: 10px;
     text-align: center;
 }
+
+/* Quote Section */
+
+.quote-section{
+    height:45vh;
+    background-color: #E5E7EB;
+}
+
