@@ -85,7 +85,7 @@ nav{
 /* information section */
 
 .info-gallery{
-    height: 40vh;
+    height: 50vh;
 }
 
 #information-header {
@@ -145,4 +145,11 @@ nav{
 
 .author.text {
     font-size: 24px;
+}
+
+.author-container{
+    display:flex;
+    width:465.142px;
+    justify-content: flex-end;
+
 }
