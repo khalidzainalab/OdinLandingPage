@@ -19,6 +19,9 @@ header{
     color:  #F9FAF8
 }
 
+a{
+    text-decoration: none;
+}
 nav{
     display:flex;
     justify-content: center;
