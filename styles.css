@@ -71,6 +71,7 @@ nav{
 
 .circular-button{
     min-width: 15px;
+    max-height:40px;
     border: 0;
     border-radius: 12px;
     padding: 5px 30px 5px;
@@ -89,8 +90,8 @@ nav{
 
 /* information section */
 
-.info-gallery{
-    height: 50vh;
+.info-section{
+    height: 40vh;
 }
 
 #information-header {
@@ -159,18 +160,25 @@ nav{
 
 }
 
+/* call to action */
 .action-section{
     background-color: white;
     height: 30vh;
+    margin-top: 10vh;
 }
 
-/* call to action */
+
 .action-container{
     background-color:#3882F6;
-    display:flex;
+    border-radius: 10px;
+    margin: 0 15vw;
+    height: 20vh;
     max-height: 30vh;
-}
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
 
+}
 .white {
     border: 2px solid white;
 }
