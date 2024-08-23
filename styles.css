@@ -125,3 +125,24 @@ nav{
     background-color: #E5E7EB;
 }
 
+.quote-container{
+    padding-top: 20vh;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.quote-text{
+    font-family: "Hero New Bold", Roboto;
+    font-size:36px;
+    font-style: italic;
+    font-weight: 250;
+}
+
+
+.author.text {
+    font-size: 24px;
+}
